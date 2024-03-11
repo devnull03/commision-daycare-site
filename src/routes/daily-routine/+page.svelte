@@ -1,5 +1,4 @@
 <script lang="ts">
-
   const schedule = [
     {
       startTime: "7:00 AM",
@@ -100,7 +99,7 @@
 
 <main class="flex flex-col gap-24 py-16 h-full">
   <div
-    class="flex flex-col justify-evenly p-16 mx-48 bg-[#D9D9D952] backdrop-blur-[30px] rounded-xl"
+    class="flex flex-col justify-evenly p-16 mx-24 lg:mx-48 bg-[#D9D9D952] backdrop-blur-[30px] rounded-xl"
   >
     <p
       class=" text-[#000000C9] text-center text-4xl font-bold rounded-t-xl pb-8"
@@ -111,10 +110,10 @@
     <div class="flex flex-col">
       {#each schedule as item}
         <div
-          class="flex items-center w-full gap-20 odd:bg-black odd:bg-opacity-10 rounded-lg"
+          class="flex lg:flex-row flex-col items-center w-full lg:gap-20 odd:bg-black odd:bg-opacity-10 rounded-lg"
         >
           <div
-            class="flex p-4 text-[#000000C9] text-2xl font-bold gap-4 whitespace-nowrap justify-end w-[20%]"
+            class="flex py-4 text-[#000000C9] text-2xl font-bold gap-4 lg:justify-end justify-center min-w-[20%] whitespace-nowrap"
           >
             <span>{item.startTime}</span>
             {#if item.endTime}
@@ -123,7 +122,9 @@
             {/if}
           </div>
 
-          <p class="text-[#1E1E1E80] text-2xl text-center">
+          <p
+            class="text-[#1E1E1E80] text-2xl text-center whitespace-normal break-words"
+          >
             {item.activity}
           </p>
         </div>

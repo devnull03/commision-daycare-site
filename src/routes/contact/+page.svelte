@@ -44,20 +44,20 @@
     <p class="text-center text-4xl font-bold rounded-t-xl pb-8">Contact</p>
 
     <div class="">
-      <p>Harpreet Kaur (Manager)</p>
+      <p class="text-3xl pb-3 font-semibold">Harpreet Kaur (Manager)</p>
       <p>Email - careandfunchildcare@gmail.com Phone</p>
       <p>Number - 604-832-0375</p>
     </div>
 
     <div class="">
-      <p>Hours of operation :</p>
+      <p class="text-3xl pb-3 font-semibold">Hours of operation :</p>
       <p>Monday to Friday 7:00 am - 5:30 pm</p>
       <p>CLOSED on all statutory holidays (closure posted in advance)</p>
     </div>
 
     <form
       on:submit={handleSubmit}
-      class="flex gap-10 *:flex *:flex-col *:gap-4"
+      class="flex gap-10 mt-10 *:flex *:flex-col *:gap-4"
     >
       <div class="items-end *:p-2">
         <label for="name">Name</label>
@@ -66,12 +66,22 @@
         <label for="message">Message</label>
       </div>
 
-      <div class="*:rounded-lg *:p-2 *:px-4 w-full">
-        <input type="text" id="name" placeholder="Name" bind:value={name} />
-        <input type="email" id="email" bind:value={email} />
-        <input type="tel" id="phone" bind:value={phone} />
-        <textarea id="message" bind:value={message} />
-        <input type="submit" value="Submit" class="cursor-pointer" />
+      <div class="*:rounded-lg *:p-2 *:px-4 w-full *:outline-none">
+        <input type="text" id="name" placeholder="John Doe" bind:value={name} />
+        <input type="email" id="email" placeholder="example@email.com" bind:value={email} />
+        <input type="tel" id="phone" placeholder="+1 1234567890" bind:value={phone} />
+        <textarea id="message" placeholder="Message" bind:value={message} />
+        <!-- <input type="submit" value="Submit" class="cursor-pointer" /> -->
+        <div class="w-full flex justify-center">
+          <div class="rainbow-gradient rounded-lg w-fit">
+            <button
+              type="submit"
+              value="Submit"
+              class="rounded-lg p-2 px-16 font-bold text-2xl bg-white border border-black text-[#000000D1] -translate-y-1 translate-x-1 hover:-translate-y-2 hover:translate-x-2 transition-all duration-500 ease-in-out"
+              >Submit</button
+            >
+          </div>
+        </div>
       </div>
     </form>
   </div>

@@ -20,7 +20,9 @@
       <div class="rainbow-gradient rounded-lg w-fit">
         <button
           class="rounded-lg p-2 px-4 font-bold text-2xl bg-white border border-black text-[#000000D1] -translate-y-1 translate-x-1 hover:-translate-y-2 hover:translate-x-2 transition-all duration-500 ease-in-out"
-          >Know More</button
+          on:click={() => {
+            goto("/program");
+          }}>Know More</button
         >
       </div>
     </div>

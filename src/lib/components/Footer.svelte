@@ -18,7 +18,7 @@
       class="grid grid-cols-3 grid-rows-3 gap-14 text-[#FFFFFFA6] font-semibold text-xl"
     >
       <a href="/">Home</a>
-      <a href="/">Program</a>
+      <a href="/program">Program</a>
 
       {#each $navLinks as item}
         <a href={item.link}>{item.title}</a>
