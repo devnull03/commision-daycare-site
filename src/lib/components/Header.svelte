@@ -19,9 +19,9 @@
   <div
     class="top-0 bg-white shadow-md fixed h-20 w-full z-50 flex flex-row justify-between items-center px-6"
   >
-    <div class="object-contain h-fit">
+    <a href="/" class="object-contain h-fit">
       <img src="/logo.png" class="h-16" alt="" />
-    </div>
+    </a>
 
     <div class="flex flex-row justify-evenly gap-8 items-center">
       <!-- nav links -->
