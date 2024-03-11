@@ -20,6 +20,6 @@ export const navLinks = writable([
     },
     {
       title: "Address",
-      link: "",
+      link: "https://maps.app.goo.gl/P1vmGtKnmb5GQPy68",
     },
   ])

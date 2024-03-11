@@ -76,14 +76,13 @@
     <div class="flex flex-wrap gap-6 text-[#000000C9]">
       {#each $navLinks as item}
         <div class="rainbow-gradient rounded-3xl">
-          <button
-            on:click={() => {
-              goto(item.link);
-            }}
-            class="bg-[#D9D9D9] rounded-3xl py-2 px-6 hover:-translate-y-2 hover:translate-x-2 transition-all duration-500 ease-in-out"
-          >
-            {item.title}
-          </button>
+          <a href={item.link}>
+            <button
+              class="bg-[#D9D9D9] rounded-3xl py-2 px-6 hover:-translate-y-2 hover:translate-x-2 transition-all duration-500 ease-in-out"
+            >
+              {item.title}
+            </button>
+          </a>
         </div>
       {/each}
     </div>
