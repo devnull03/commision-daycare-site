@@ -11,7 +11,7 @@
       name,
       email,
       phone,
-      subject: "Contact Form Submission",
+      subject: `New Care and Fun Contact Request - ${name}`,
       honeypot: "",
       message,
       replyTo: "@",
@@ -39,7 +39,7 @@
 
 <main class="flex flex-col gap-24 py-16 h-full">
   <div
-    class="flex flex-col justify-evenly gap-10 py-16 px-28 mx-48 bg-[#D9D9D952] backdrop-blur-[30px] rounded-xl text-[#000000C9]"
+    class="flex flex-col justify-evenly gap-10 py-16 px-28 mx-48 bg-[#D9D9D952] backdrop-blur-[30px] rounded-xl text-[#000000C9] text-xl"
   >
     <p class="text-center text-4xl font-bold rounded-t-xl pb-8">Contact</p>
 
@@ -52,31 +52,27 @@
     <div class="">
       <p>Hours of operation :</p>
       <p>Monday to Friday 7:00 am - 5:30 pm</p>
-      <p>CLOSED on all statutory holidays (closure posted in advance)</p> 
+      <p>CLOSED on all statutory holidays (closure posted in advance)</p>
     </div>
 
-    <form on:submit={handleSubmit} class="flex flex-col gap-4">
-      <div>
+    <form
+      on:submit={handleSubmit}
+      class="flex gap-10 *:flex *:flex-col *:gap-4"
+    >
+      <div class="items-end *:p-2">
         <label for="name">Name</label>
-        <input type="text" id="name" bind:value={name} />
-      </div>
-
-      <div>
         <label for="email">Email</label>
-        <input type="email" id="email" bind:value={email} />
-      </div>
-
-      <div>
         <label for="phone">Phone</label>
-        <input type="tel" id="phone" bind:value={phone} />
-      </div>
-
-      <div>
         <label for="message">Message</label>
-        <textarea id="message" bind:value={message} />
       </div>
 
-      <input type="submit" value="Submit" class="cursor-pointer" />
+      <div class="*:rounded-lg *:p-2 *:px-4 w-full">
+        <input type="text" id="name" placeholder="Name" bind:value={name} />
+        <input type="email" id="email" bind:value={email} />
+        <input type="tel" id="phone" bind:value={phone} />
+        <textarea id="message" bind:value={message} />
+        <input type="submit" value="Submit" class="cursor-pointer" />
+      </div>
     </form>
   </div>
 </main>
