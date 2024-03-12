@@ -17,10 +17,10 @@
 
 <nav class="">
   <div
-    class="top-0 bg-white shadow-md fixed h-20 w-full z-50 flex flex-row justify-between items-center px-6"
+    class="top-0 bg-white shadow-md fixed h-24 w-full z-50 flex flex-row justify-between items-center px-6"
   >
     <a href="/" class="object-contain h-fit">
-      <img src="/logo.png" class="h-16" alt="" />
+      <img src="/favicon.png" class="h-20" alt="" />
     </a>
 
     <div class="flex flex-row justify-evenly gap-8 items-center">
@@ -28,7 +28,7 @@
       {#each navLinks as link}
         <a
           href={link.href}
-          class="text-black text-opacity-65 font-bold hover:text-opacity-80 transition-colors duration-300 ease-in-out"
+          class="text-black text-opacity-65 text-lg font-bold hover:text-opacity-80 transition-colors duration-300 ease-in-out"
         >
           {link.name}
         </a>

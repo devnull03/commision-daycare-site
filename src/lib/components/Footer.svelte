@@ -8,8 +8,8 @@
 
     <div class="flex flex-col items-center lg:gap-6 text-center">
 
-      <img src="/favicon.png" alt="" class="scale-75 lg:scale-100" />
-      <div class="flex flex-col items-center font-semibold">
+      <img src="/favicon.png" alt="" class="h-40 scale-75 lg:scale-100" />
+      <div class="flex flex-col items-center font-semibold whitespace-nowrap">
         <p class="lg:text-3xl text-[#FFFFFFCC]">Care and fun Childcare Centre</p>
         <p class="lg:text-2xl text-[#FFFFFFA6]">
           31883 Mayne Ave, Abbotsford, BC V2T 4W9
@@ -19,7 +19,7 @@
     </div>
 
     <div
-      class="grid grid-cols-2 gap-4 lg:grid-cols-3 lg:grid-rows-3 lg:gap-14 text-[#FFFFFFA6] font-semibold lg:text-xl"
+      class="grid grid-cols-2 lg:grid-cols-3 lg:grid-rows-3 gap-4 lg:gap-0 text-[#FFFFFFA6] font-semibold lg:text-xl"
     >
       <a href="/">Home</a>
       <a href="/program">Program</a>
