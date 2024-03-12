@@ -69,16 +69,16 @@
   </div>
 
   <div
-    class="bg-[#D9D9D952] backdrop-blur-[30px] flex flex-col justify-between gap-6 p-16 mx-16 rounded-xl shadow-2xl font-semibold text-3xl"
+    class="bg-[#D9D9D952] backdrop-blur-[30px] flex flex-col justify-between gap-6 lg:p-16 p-6 lg:mx-16 mx-10 rounded-xl shadow-2xl font-semibold lg:text-3xl text-lg"
   >
     <p class="text-[#000000B2]">More</p>
 
-    <div class="flex flex-wrap gap-6 text-[#000000C9]">
+    <div class="flex flex-wrap gap-2 lg:gap-6 text-[#000000C9]">
       {#each $navLinks as item}
         <div class="rainbow-gradient rounded-3xl">
           <a href={item.link}>
             <button
-              class="bg-[#D9D9D9] rounded-3xl py-2 px-6 hover:-translate-y-2 hover:translate-x-2 transition-all duration-500 ease-in-out"
+              class="bg-[#D9D9D9] lg:text-3xl rounded-3xl lg:py-2 lg:px-6 p-2 px-4 hover:-translate-y-2 hover:translate-x-2 transition-all duration-500 ease-in-out"
             >
               {item.title}
             </button>

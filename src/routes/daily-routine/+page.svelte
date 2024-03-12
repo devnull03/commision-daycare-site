@@ -99,7 +99,7 @@
 
 <main class="flex flex-col gap-24 py-16 h-full">
   <div
-    class="flex flex-col justify-evenly p-16 mx-24 lg:mx-48 bg-[#D9D9D952] backdrop-blur-[30px] rounded-xl"
+    class="flex flex-col justify-evenly p-16 px-10 mx-10 lg:px-28 lg:mx-48 bg-[#D9D9D952] backdrop-blur-[30px] rounded-xl"
   >
     <p
       class=" text-[#000000C9] text-center text-4xl font-bold rounded-t-xl pb-8"

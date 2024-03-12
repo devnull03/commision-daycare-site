@@ -39,27 +39,31 @@
 
 <main class="flex flex-col gap-24 py-16 h-full">
   <div
-    class="flex flex-col justify-evenly gap-10 py-16 px-28 mx-48 bg-[#D9D9D952] backdrop-blur-[30px] rounded-xl text-[#000000C9] text-xl"
+    class="flex flex-col justify-evenly gap-10 py-16 px-10 mx-10 lg:px-28 lg:mx-48 bg-[#D9D9D952] backdrop-blur-[30px] rounded-xl text-[#000000C9] text-xl"
   >
     <p class="text-center text-4xl font-bold rounded-t-xl pb-8">Contact</p>
 
     <div class="">
-      <p class="text-3xl pb-3 font-semibold">Harpreet Kaur (Manager)</p>
+      <p class="lg:text-3xl text-2xl pb-3 font-semibold">
+        Harpreet Kaur (Manager)
+      </p>
       <p>Email - careandfunchildcare@gmail.com Phone</p>
       <p>Number - 604-832-0375</p>
     </div>
 
     <div class="">
-      <p class="text-3xl pb-3 font-semibold">Hours of operation :</p>
+      <p class="lg:text-3xl text-2xl pb-3 font-semibold">
+        Hours of operation :
+      </p>
       <p>Monday to Friday 7:00 am - 5:30 pm</p>
       <p>CLOSED on all statutory holidays (closure posted in advance)</p>
     </div>
 
     <form
       on:submit={handleSubmit}
-      class="flex gap-10 mt-10 *:flex *:flex-col *:gap-4"
+      class="flex lg:gap-10 mt-10 *:flex *:flex-col *:gap-4"
     >
-      <div class="items-end *:p-2">
+      <div class="items-end *:p-2 *:hidden *:lg:block">
         <label for="name">Name</label>
         <label for="email">Email</label>
         <label for="phone">Phone</label>
@@ -67,9 +71,24 @@
       </div>
 
       <div class="*:rounded-lg *:p-2 *:px-4 w-full *:outline-none">
+
+        <label for="name" class="-m-4 -mb-6 font-semibold">Name</label>
         <input type="text" id="name" placeholder="John Doe" bind:value={name} />
-        <input type="email" id="email" placeholder="example@email.com" bind:value={email} />
-        <input type="tel" id="phone" placeholder="+1 1234567890" bind:value={phone} />
+        <label for="name" class="-m-4 -mt-2 -mb-6 font-semibold">Email</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="example@email.com"
+          bind:value={email}
+        />
+        <label for="name" class="-m-4 -mt-2 -mb-6 font-semibold">Phone</label>
+        <input
+          type="tel"
+          id="phone"
+          placeholder="+1 1234567890"
+          bind:value={phone}
+        />
+        <label for="name" class="-m-4 -mt-2 -mb-6 font-semibold">Message</label>
         <textarea id="message" placeholder="Message" bind:value={message} />
         <!-- <input type="submit" value="Submit" class="cursor-pointer" /> -->
         <div class="w-full flex justify-center">
@@ -77,7 +96,7 @@
             <button
               type="submit"
               value="Submit"
-              class="rounded-lg p-2 px-16 font-bold text-2xl bg-white border border-black text-[#000000D1] -translate-y-1 translate-x-1 hover:-translate-y-2 hover:translate-x-2 transition-all duration-500 ease-in-out"
+              class="rounded-lg p-2 px-16 font-bold lg:text-2xl bg-white border border-black text-[#000000D1] -translate-y-1 translate-x-1 hover:-translate-y-2 hover:translate-x-2 transition-all duration-500 ease-in-out"
               >Submit</button
             >
           </div>
