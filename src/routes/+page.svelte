@@ -54,7 +54,7 @@
     class="bg-[#D9D9D952] backdrop-blur-[30px] flex lg:flex-row flex-col justify-evenly lg:px-16 p-10 mx-8 lg:mx-48 rounded-xl shadow-2xl"
   >
     <div
-      class="flex flex-col lg:w-1/2 text-center lg:text-right justify-center gap-4 lg:gap-10 font-semibold"
+      class="flex flex-col lg:w-1/2 text-center lg:text-left justify-center gap-4 lg:gap-10 font-semibold"
     >
       <p class="text-[#000000C9] text-4xl font-bold">Holistic Approach</p>
       <p class="text-[#1E1E1E80] text-lg lg:text-3xl">
@@ -63,7 +63,7 @@
       </p>
     </div>
 
-    <div class="lg:w-1/2 flex items-center lg:justify-normal justify-center lg:py-16 pt-4 lg:pt-16">
+    <div class="lg:w-1/2 flex items-center lg:justify-end justify-center lg:py-16 pt-4 lg:pt-16">
       <img src="/kid2.png" class="h-28 lg:h-auto" alt="" />
     </div>
   </div>
