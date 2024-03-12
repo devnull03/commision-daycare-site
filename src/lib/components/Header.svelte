@@ -19,8 +19,9 @@
   <div
     class="top-0 bg-white shadow-md fixed h-24 w-full z-50 flex flex-row justify-between items-center px-6"
   >
-    <a href="/" class="object-contain h-fit">
-      <img src="/favicon.png" class="h-20" alt="" />
+    <a href="/" class="object-contain h-fit flex flex-col items-center text-2xl font-light">
+      <img src="/header_logo.png" class="h-14" alt="" />
+      Care and Fun
     </a>
 
     <div class="flex flex-row justify-evenly gap-8 items-center">

@@ -72,23 +72,23 @@
 
       <div class="*:rounded-lg *:p-2 *:px-4 w-full *:outline-none">
 
-        <label for="name" class="-m-4 -mb-6 font-semibold">Name</label>
+        <label for="name" class="-m-4 -mb-6 font-semibold lg:hidden">Name</label>
         <input type="text" id="name" placeholder="John Doe" bind:value={name} />
-        <label for="name" class="-m-4 -mt-2 -mb-6 font-semibold">Email</label>
+        <label for="name" class="-m-4 -mt-2 -mb-6 font-semibold lg:hidden">Email</label>
         <input
           type="email"
           id="email"
           placeholder="example@email.com"
           bind:value={email}
         />
-        <label for="name" class="-m-4 -mt-2 -mb-6 font-semibold">Phone</label>
+        <label for="name" class="-m-4 -mt-2 -mb-6 font-semibold lg:hidden">Phone</label>
         <input
           type="tel"
           id="phone"
           placeholder="+1 1234567890"
           bind:value={phone}
         />
-        <label for="name" class="-m-4 -mt-2 -mb-6 font-semibold">Message</label>
+        <label for="name" class="-m-4 -mt-2 -mb-6 font-semibold lg:hidden">Message</label>
         <textarea id="message" placeholder="Message" bind:value={message} />
         <!-- <input type="submit" value="Submit" class="cursor-pointer" /> -->
         <div class="w-full flex justify-center">
