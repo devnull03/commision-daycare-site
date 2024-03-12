@@ -7,16 +7,16 @@ export const navLinks = writable([
       link: "/repayment-agreement-policy",
     },
     {
-      title: "Supplies provided by parents",
-      link: "/supplies-provided-by-parents",
-    },
-    {
       title: "Daily Routine",
       link: "/daily-routine",
     },
     {
       title: "Contact info",
       link: "/contact",
+    },
+    {
+      title: "Supplies provided by parents",
+      link: "/supplies-provided-by-parents",
     },
     {
       title: "Address",
