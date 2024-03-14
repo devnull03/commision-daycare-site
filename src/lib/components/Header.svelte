@@ -19,12 +19,12 @@
   <div
     class="top-0 bg-white shadow-md fixed h-24 w-full z-50 flex flex-row justify-between items-center px-6"
   >
-    <a href="/" class="object-contain h-fit flex flex-col items-center text-2xl font-light">
+    <a href="/" class="object-contain h-fit flex flex-col items-center lg:text-2xl font-light">
       <img src="/header_logo.png" class="h-14" alt="" />
       Care and Fun
     </a>
 
-    <div class="flex flex-row justify-evenly gap-8 items-center">
+    <div class="flex flex-row justify-evenly gap-4 lg:gap-8 items-center">
       <!-- nav links -->
       {#each navLinks as link}
         <a
