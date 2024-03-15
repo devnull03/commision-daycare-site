@@ -8,7 +8,7 @@
     <p class="text-center text-4xl font-bold rounded-t-xl pb-8">Program</p>
 
     <div class="text-xl">
-      <img src="/kid2.png" class="float-right" alt="" />
+      <!-- <img src="/kid2.png" class="float-right" alt="" /> -->
       <p class="pb-10">
         The curriculum of Care and Fun is based on a combination of many
         teaching methods, including the Reggio Emilia model, learning through
@@ -33,8 +33,7 @@
         their skills.
       </p>
 
-      <div class="pb-10">
-        <p>Harpreet Kaur (Manager)</p>
+      <div class="pb-10 hidden">
         <p>Email - careandfunchildcare@gmail.com</p>
         <p>Phone Number - 778-757-7744</p>
       </div>

@@ -43,10 +43,7 @@
   >
     <p class="text-center text-4xl font-bold rounded-t-xl pb-8">Contact</p>
 
-    <div class="">
-      <p class="lg:text-3xl text-2xl pb-3 font-semibold">
-        Harpreet Kaur (Manager)
-      </p>
+    <div class="hidden"> 
       <p>Email - careandfunchildcare@gmail.com</p>
       <p>Phone Number - 778-757-7744</p>
     </div>
