@@ -1,7 +1,4 @@
 <script lang="ts">
-
-
-
 </script>
 
 <main class="flex flex-col gap-24 py-16 h-full">
@@ -38,8 +35,8 @@
 
       <div class="pb-10">
         <p>Harpreet Kaur (Manager)</p>
-        <p>Email - careandfunchildcare@gmail.com Phone</p>
-        <p>Number - 604-832-0375</p>
+        <p>Email - careandfunchildcare@gmail.com</p>
+        <p>Phone Number - 778-757-7744</p>
       </div>
 
       <div class="pb-10">
