@@ -33,7 +33,7 @@
         their skills.
       </p>
 
-      <div class="pb-10 hidden">
+      <div class="pb-10">
         <p>Email - careandfunchildcare@gmail.com</p>
         <p>Phone Number - 778-757-7744</p>
       </div>

@@ -43,7 +43,7 @@
   >
     <p class="text-center text-4xl font-bold rounded-t-xl pb-8">Contact</p>
 
-    <div class="hidden"> 
+    <div class=""> 
       <p>Email - careandfunchildcare@gmail.com</p>
       <p>Phone Number - 778-757-7744</p>
     </div>
